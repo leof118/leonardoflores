@@ -11,11 +11,11 @@ function feliz(){
 }
 function cambiarColor(){
     document.getElementById('men0').style.color='#dac23aff';
-    document.getElementById('men1').style.color='#dac23aff';
-    document.getElementById('men2').style.color='#dac23aff';
-    document.getElementById('men3').style.color='#dac23aff';
-    document.getElementById('men4').style.color='#dac23aff';
-    document.getElementById('men5').style.color='#dac23aff';
+    document.getElementById('men1').style.color='#1ecc1eff';
+    document.getElementById('men2').style.color='#1a179cff';
+    document.getElementById('men3').style.color='#c21e34ff';
+    document.getElementById('men4').style.color='#065879ff';
+    document.getElementById('men5').style.color='#db39d3ff';
     alert("No te gusto el color :c");
 }
 function cambiarLogo(){
