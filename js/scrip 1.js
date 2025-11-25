@@ -10,7 +10,12 @@ function feliz(){
     alert("que habras hecho");
 }
 function cambiarColor(){
-    document.getElementById('men').style.color='#dac23aff';
+    document.getElementById('men0').style.color='#dac23aff';
+    document.getElementById('men1').style.color='#dac23aff';
+    document.getElementById('men2').style.color='#dac23aff';
+    document.getElementById('men3').style.color='#dac23aff';
+    document.getElementById('men4').style.color='#dac23aff';
+    document.getElementById('men5').style.color='#dac23aff';
     alert("No te gusto el color :c");
 }
 function cambiarLogo(){
