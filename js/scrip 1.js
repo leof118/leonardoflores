@@ -9,14 +9,14 @@ function feliz(){
     document.getElementById('carita').src='images/feliz.jpg';
 }
 function cambiarColor(){
-    document.getElementById('menu').style.color='#eed33aff';
+    document.getElementById('menu').style.color='#dac23aff';
 
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
 }
 function cambiarFondo(){
-     document.getElementById('menu').style.background='#524604';
+     document.getElementById('menu').style.background='#1a9c2bff';
 }
 function cambiodeTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
