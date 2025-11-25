@@ -24,91 +24,77 @@
        </nav>
        <section>
         <article>
-            <h3> En esta primera pagina web, practicaremos el uso de algunas etiquetas basicas en HTML</h3>
-            <img src="images/puno.jpg" alt="Puno">
-            <p> Vivo en la ciudad de Puno</p>
-        </article>
-        <article>
-            <p>La historia de Puno se remonta a culturas prehispánicas como la Tiawanaco, Colla y Aymara, pero su fundación española data de 1668 por el virrey Conde de Lemos. Se estableció en la zona del actual asentamiento indígena, luego del colapso del centro minero colonial de San Luis de Alba por los enfrentamientos entre mineros, y fue nombrada San Carlos de Puno en honor al rey Carlos II y a San Carlos Borromeo. La región se convirtió en un importante centro minero y comercial durante la colonia. En la República, la ciudad fue sede de importantes eventos, como la visita de Simón Bolívar, y en 1822 se creó el departamento.</p>
+         <H3>Mi primer Formulario</H3>
+         <form action="" method="post">
+            <fieldset>
+               <legend>Datos personales</legend>
+                  <input type="text" name="nombre" placeholder="Nombre completo">
+                  <input type="email" name="correo" placeholder="Correo electrónico">
+            </fieldset>
 
-        </article>
-        <article>
-            <h3>LISTA DE LUGARES MAS BONITOS DE PUNO:</h3>
-            <ol>
-                <li>Lago Titicaca.</li>
-                <li>Los Urus</li>
-                <li><a href="">
-                </a>Taquile</li>
-                <li>Huajsapata</li>
-            </ol>
-        </article>
-        <aside> 
-            <h2>Esta mi primera pagina web</h2>
-            <li>Mi nombre es Leonardo</hli>
-            <li>Tengo 18 años</li>
-            <li>Soy estudiante del curso</li>
-            <li>Senati - Segundo Semestre</li>
-        
-        </aside>
-       </section>
-       <section>
-        <article>
-            <h3>NOTICIAS IMPORTANTES</h3>
-            <img src="images/noti.jpg" alt="Noticias">
-            <p>Ultimas noticias</p>
-        </article>
-        <article>
-            <p>La noticia es importante porque informa al público sobre hechos actuales y relevantes, lo que permite a las personas tomar decisiones informadas, mantenerse al día con el mundo y ampliar su perspectiva. Cumple una función social vital al divulgar información pública y es fundamental para sostener una democracia saludable. También sirve como fuente de entretenimiento, cultura, y ayuda a distinguir entre información veraz y desinformación.</p>
+            <input type="email" name="correo" placeholder="email">
+            <input type="number" name="edad" min="1" max="100">
+            <input type="date" name="fecha_nacimiento">
+            <input type="file" name="documento">
+            <h4> Botones de radio </h4>
+            <p>Género:</p>
+               <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+               <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+               <label><input type="radio" name="genero" value="otro"> Otro</label>
 
-        </article>
+            <h4>Casillas</h4>
+            <p>Intereses:</p>
+            <label><input type="checkbox" name="interes" value="musica"> Música</label>
+            <label><input type="checkbox" name="interes" value="cine"> Cine</label>
+            <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
+            <label><input type="checkbox" name="interes" value="programar"> Programar</label>
+            
+            <h4>Lista desplegable simple </h4>
+            <select name="pais">
+               <option value="ar">Argentina</option>
+               <option value="co">Colombia</option>
+                <option value="mx">México</option>
+                <option value="pe">Perú</option>
+            </select>
+            <h4>Lista con múltiples opciones</h4>
+            <select name="cursos" multiple size="1">
+               <option value="html">HTML</option>
+               <option value="css">CSS</option>
+               <option value="js">JavaScript</option>
+               <option value="php">PHP</option>
+            </select>
+            <h4>Área de texto (varias líneas)</h4>
+            <textarea name="comentarios" rows="4" cols="40" placeholder="aqui ponga sus comentarios"></textarea>
+            <h4>Botones</h4>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <button type="button" onclick="alert('Hola')">Haz clic</button>
+
+
+   
+            </form>
+            <iframe src="https://senatipe-my.sharepoint.com/personal/agonzalezq_senati_pe/_layouts/15/embed.aspx?UniqueId=9d891c07-5cc0-4859-9225-4ccdb647045f&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen title="202520-PIAD-218-TAL-NRC_12126001652816-20251120_133954-Grabación de la reunión.mp4"></iframe>
+      </article>
         <article>
-            <h4>LISTA DE NOTICIAS IMPORTANTES</h4>
-            <ol>
-                <li>Todos quieren funar al Precidente Jeri.</li>
-                <li>Los estudiantes del SENATI toman local.</li>
-                <li>Perú ganador del mundial de desayunos.</li>
-            </ol>
+                 <h2>Calculadora Basica con JS</h2> 
+                   <label for="numero1">Número 1: </label>
+                    <input type="number" id="numero1"><br>
+                    <label for="numero2">Número 2: </label>
+                    <input type="number" id="numero2"><br>
+                    <label for="operacion">Operación: </label>
+                    <select id="operacion">
+                        <option value="suma">Suma</option>
+                        <option value="resta">Resta</option>
+                        <option value="multiplicacion">Multiplicación</option>
+                        <option value="division">División</option>
+                        
+                    </select><br>
+                    <button id="calcular">Calcular</button>
+                    <p id = "resultado"></p>
+
+                    <iframe src="https://senatipe-my.sharepoint.com/personal/agonzalezq_senati_pe/_layouts/15/embed.aspx?UniqueId=9d891c07-5cc0-4859-9225-4ccdb647045f&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen title="202520-PIAD-218-TAL-NRC_12126001652816-20251120_133954-Grabación de la reunión.mp4"></iframe>
         </article>
-        <aside>
-            <h1>Noticia numero 1</h1>
-            <p>Lo quieren funar por temas de corrupcion, aprueba leyes que favorecen al crimen organizado y por seguir paginas indevidas.</p>
-            <h1>Noticia numero 2</h1>
-            <p>Toman local ya que desaprovaron y no tenian nada mas que hacer.</p>
-            <h1>Noticia numero 3</h1>
-            <p>Despues de una gran colaboraion entre peruanos en el mundial de desayunos, porfin ganamos algo no como en el mundial real ya que ahi tenemos cojos nada mas.</p>
-        </aside>
-       </section>
-       <section>
-        <article>
-            <h3>MEJOR PLATO PERUANO??</h3>
-            <img src="images/ceviche.png" alt="Ceviche" >
-            <p>Ceviche peruano lo mejor.</p>
-        </article>
-        <article>
-            <p>El ceviche es considerado el mejor plato peruano por ser un símbolo de la identidad y diversidad cultural del país, reconocido incluso como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Además de su valor cultural, destaca por su frescura, sabor único y el equilibrio nutricional que aporta, combinando pescado, vegetales, carbohidratos y picante en una preparación rápida y versátil.</p>
-        </article>
-        <article>
-            <h4>TIPOS DE CEVICHES:</h4>
-            <ol>
-                <li>Ceviche de Pescado.</li>
-                <li>Ceviche de camaron.</li>
-                <li>Ceviche de trucha</li>
-                <li>Ceviche mixto</li>
-            </ol>
-        </article>
-        <aside>
-            <h4>INGREDIENTES COMUNES:</h4>
-            <ol>
-                <li>filete de corvina.</li>
-                <li>cebolla.</li>
-                <li>limon.</li>
-                <li>lechuga.</li>
-                <li>camotes.</li>
-                <li>choclo.</li>
-                <li>aji.</li>
-                <li>lo demas lo agregas a tu gusto.</li>
-            </ol>
-        </aside>
+        <aside> </aside>
        </section>
        <footer>
             <a href="https://arnoldbgq.github.io/arnoldgonzalez/" target="_blank">Página del Instructor</a>
