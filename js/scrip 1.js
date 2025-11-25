@@ -1,9 +1,9 @@
 console.log("Hola Mundo");
-alert("Hola Mundo, esto es un alert") 
+alert("Hola Mundo, esto es un alerta") 
 
 function triste(){
     document.getElementById('carita').src='images/sad.jpg';
-    alert("Po que ta triste mano");
+    alert("Po que ta triste causa");
 }
 function feliz(){
     document.getElementById('carita').src='images/feliz.jpg';
