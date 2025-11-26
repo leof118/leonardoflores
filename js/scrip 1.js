@@ -27,7 +27,7 @@ function cambiarLogo(){
     alert("logo simple, te entiendo");
 }
 function cambiarFondo(){
-     document.getElementById('menu').style.backgroun='#1a9c2bff';
+     document.getElementById('menu').style.background='#1a9c2bff';
      alert("Nada te gusta :/");
 }
 function cambiodeTexto(){
