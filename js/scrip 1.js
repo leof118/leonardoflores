@@ -19,7 +19,7 @@ function cambiarColor(){
     alert("No te gusto el color :c");
 }
 function cambiarFolo(){
-    document.getElementById('header').src.color='#abc929ff';
+    document.getElementById('header').style.color='#abc929ff';
     alert("Nada te gusta.");
 }
 function cambiarLogo(){
