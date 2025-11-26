@@ -17,10 +17,10 @@ function cambiarColor(){
     document.getElementById('men4').style.color='#065879ff';
     document.getElementById('men5').style.color='#db39d3ff';
     alert("No te gusto el color :c");
+}
 function cambiarFolo(){
     document.getElementById('header').src.color='#abc929ff';
     alert("Nada te gusta.");
-}
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
