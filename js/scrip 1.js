@@ -19,7 +19,7 @@ function cambiarColor(){
     alert("No te gusto el color :c");
 }
 function cambiarFondoT(){
-    document.getElementById('html').style.background='#000000ff'
+    document.getElementById('html').style.color='#000000ff'
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
