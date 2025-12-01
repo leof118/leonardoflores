@@ -18,7 +18,7 @@ function cambiarColor(){
     document.getElementById('men5').style.color='#db39d3ff';
     alert("No te gusto el color :c");
 }
-function cambiarColor(){
+function cambiarTaCo(){
     document.getElementById('header').style.background='#abc929ff';
     alert("Nada te gusta.");
 }
