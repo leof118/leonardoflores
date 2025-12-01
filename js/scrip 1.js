@@ -18,6 +18,9 @@ function cambiarColor(){
     document.getElementById('men5').style.color='#db39d3ff';
     alert("No te gusto el color :c");
 }
+function cambiarFondoT(){
+    document.getElementById('html').style.background='#000000ff'
+}
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
     alert("logo simple, te entiendo");
