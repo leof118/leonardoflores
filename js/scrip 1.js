@@ -20,6 +20,7 @@ function cambiarColor(){
 }
 function cambiarFondoT(){
     document.getElementById('html').style.color='#000000ff'
+    alert=("Po que")
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
