@@ -18,8 +18,8 @@ function cambiarColor(){
     document.getElementById('men5').style.color='#db39d3ff';
     alert("No te gusto el color :c");
 }
-function cambiarFondoT(){
-    document.getElementById('html').style.color='#000000ff'
+function cambiarFondoS(){
+    document.getElementById('secction').style.color='#000000ff'
     alert=("Po que")
 }
 function cambiarLogo(){
