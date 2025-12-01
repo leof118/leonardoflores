@@ -19,7 +19,7 @@ function cambiarColor(){
     alert("No te gusto el color :c");
 }
 function cambiarFondoS(){
-    document.getElementById('secction').style.color='#000000ff'
+    document.getElementById('secction').style.background='#581111ff'
     alert=("Po que")
 }
 function cambiarLogo(){
