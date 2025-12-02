@@ -17,6 +17,10 @@ function aside(){
     document.getElementById('aside').style.background='#105fa0ff';
     alert("diablo nada te gusta");
 }
+function footer(){
+    document.getElementById('footer').style.background='#105fa0ff';
+    alert("Bueno, si eso quieres");
+}
 function cambiarColor(){
     document.getElementById('men0').style.color='#dac23aff';
     document.getElementById('men1').style.color='#1ecc1eff';
