@@ -13,6 +13,10 @@ function feliz(){
     document.getElementById('carita').src='images/feliz.jpg';
     alert("que habras hecho");
 }
+function aside(){
+    document.getElementById('aside').style.background='#105fa0ff';
+    alert("diablo nada te gusta");
+}
 function cambiarColor(){
     document.getElementById('men0').style.color='#dac23aff';
     document.getElementById('men1').style.color='#1ecc1eff';
