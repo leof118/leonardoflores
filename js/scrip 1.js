@@ -21,6 +21,10 @@ function footer(){
     document.getElementById('footer').style.background='#105fa0ff';
     alert("Bueno, si eso quieres");
 }
+function aside2(){
+    document.getElementById('aside2').style.background='#105fa0ff';
+    alert("Este tampoco te gusta?"); 
+}
 function cambiarColor(){
     document.getElementById('men0').style.color='#dac23aff';
     document.getElementById('men1').style.color='#1ecc1eff';
