@@ -20,7 +20,7 @@ function cambiarColor(){
 }
 function cambiarFondoS(){
     document.getElementById('secction').style.background='#581111ff';
-    alert("Po que");
+    alert("Por que");
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
