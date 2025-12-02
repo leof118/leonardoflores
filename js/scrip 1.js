@@ -5,6 +5,10 @@ function triste(){
     document.getElementById('carita').src='images/sad.jpg';
     alert("Po que ta triste causa");
 }
+function Dinero(){
+    document.getElementById('Dinero').src='images/Dinero.jpg';
+    alert("Presta ps");
+}
 function feliz(){
     document.getElementById('carita').src='images/feliz.jpg';
     alert("que habras hecho");
