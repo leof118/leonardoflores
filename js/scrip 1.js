@@ -18,7 +18,7 @@ function aside(){
     alert("diablo nada te gusta");
 }
 function footer(){
-    document.getElementById('footer').style.background='#86aecfff';
+    document.getElementById('footer').style.background='#57a52aff';
     alert("Bueno, si eso quieres");
 }
 function aside2(){
