@@ -19,8 +19,8 @@ function cambiarColor(){
     alert("No te gusto el color :c");
 }
 function cambiarFondoS(){
-    document.getElementById('secction').style.background='#581111ff'
-    alert=("Po que")
+    document.getElementById('secction').style.background='#581111ff';
+    alert=("Po que");
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo 2.jpg';
