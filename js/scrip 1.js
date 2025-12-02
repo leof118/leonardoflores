@@ -9,6 +9,10 @@ function Dinero(){
     document.getElementById('Dinero').src='images/Dinero.jpg';
     alert("Presta ps");
 }
+function Grax(){
+    document.getElementById('Grax').src='images/grax.jpg';
+    alert("Estamos agrsdecidos :3");
+}
 function feliz(){
     document.getElementById('carita').src='images/feliz.jpg';
     alert("que habras hecho");
