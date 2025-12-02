@@ -18,12 +18,19 @@ function aside(){
     alert("diablo nada te gusta");
 }
 function footer(){
-    document.getElementById('footer').style.background='#105fa0ff';
+    document.getElementById('footer').style.background='#86aecfff';
     alert("Bueno, si eso quieres");
 }
 function aside2(){
-    document.getElementById('aside2').style.background='#105fa0ff';
+    document.getElementById('aside2').style.background='#10a01cff';
     alert("Este tampoco te gusta?"); 
+}
+function cambiarRom(){
+    document.getElementById('rom 1').style.background='#b44a19ff';
+    document.getElementById('rom 2').style.background='#721b5cff';
+    document.getElementById('rom 3').style.background='#589923ff';
+    document.getElementById('rom 4').style.background='#181e24ff';
+    alert("ya mejor nada");
 }
 function cambiarColor(){
     document.getElementById('men0').style.color='#dac23aff';
